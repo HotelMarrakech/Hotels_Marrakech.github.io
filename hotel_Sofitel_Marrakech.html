@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL KECH</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="sofitel.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "LOGO.png" type = "image/png">
+    </head>
+    <body>
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>HOTEL KECH</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>Hotel Sofitel Marrakech</h2>
+                <p>Embarquez pour un Magnifique voyage au Sofitel Marrakech Lounge & Spa, assemblant un design contemporain et l’élégance française. Profitez d’un séjour reposant et vivez le bien-être dans ce havre de paix au cœur de la ville ocre.
+                    La vie est merveilleuse à Marrakech.
+                </p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "./Hotel_Marrakech.html">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <div id = "modal"></div>
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Service/Plasir des yeux et des papilles</h2>
+                        <p>Le Sofitel Marrakech est une destination pour les aventureux épicuriens. Des dîners exquis français et marocains aux déjeuners d’affaires rapides, notre gastronomie dévoile une cuisine d’envie. Celle-ci puise son raffinement dans la fraîcheur de ses produits ainsi que dans les recettes traditionnelles de vrais plats savoureux et dans l’esprit du temps. Une véritable escale pour satisfaire les palais les plus raffinés. Éclairage doux, musique douce ou live et service personnalisé définissent nos bars. Un accueil chaleureux et une ambiance cosy seront à l’ordre du jour : rituels du thé et pâtisseries marocaines, cocktails et macarons parisiens.
+                             Découvrez les nombreuses spécialités culinaires et l’atmosphère sophistiquée de ce palace.
+                        </p>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Chambres & Suites de notre hôtel</h2>
+                        <p>
+                            Au Sofitel Marrakech, découvrez la magie des chambres alliant un decor contemporain. Une décontraction apportée par le doux bruit des fontaines. Parce que chacune de nos chambres est unique, chaque séjour au Sofitel est une expérience merveilleuse. A travers nos fenêtres et nos magnifiques terraces, vous prenez plaisir à observer les vues les plus spectaculaires sur la belle ville de Marrakech. Nos grands espaces à nos intérieurs luxueux,
+                             vos exigences de confort et de sérénité seront à chaque fois satisfaites.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "sofitel1.jpg" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Descriptif & équipements
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Points forts
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    EQUIPEMENTS
+                                </li>
+                            </ul>
+                            <p>
+                                Qui dit Prestige, dit lit king-size dans une chambre ouvrant sur la vue des montagnes de l’Atlas.
+
+                                Une élégante suite de 68m².
+                                
+                                Une terrasse offrant une vue sur les  magnifiques montagnes ou sur le jardin.
+                                
+                                L’élégance ne laisse pas un pouce de cet espace sans sa signature.
+                                
+                                Profitez d’un hébergement de première classe qui vous initie à la définition même du luxe grâce à son équipement de pointe:
+                                
+                                Un coin salon, une salle de bain avec baignoire en marbre ainsi que des produits Lanvin sont mises à votre disposition.
+                                
+                                Un sèche-cheveux, une télévision avec câble satellite, la WiFi, un équipement Bose ainsi que l’air conditionné est mis à votre disposition.
+                            </p>
+                            <p class = "rate">
+                                <span>$356,80 /</span> par nuit
+                            </p>
+                        </div>
+                </article>
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "sofitel2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Descriptif & équipements
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Points forts
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                EQUIPEMENTS
+                            </li>
+                        </ul>
+                        <p>
+                            La lumière du jour baigne la chambre dans des tons clairs et des teintes vives tout en jouant voluptueusement sur la tete de lit précieux Tataoui.
+
+                            Cette chambre mêle la chaleur de la ville avec une touche moderne dans une harmonie satisfaisante, qui garantie de faire votre âme se sentir chez vous.
+                            
+                            Tout le charme de la ville ocre est audacieusement harmonisé avec un design moderne pour ce décor.
+                        </p>
+                        <p class = "rate">
+                            <span>$356,80 /</span> Par Nuit
+                        </p>
+                    </div>
+            </article>
+            </div>
+        </section>
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>
+                            Toujours bien accueilli surtout au niveau de la réception des voituriers et des bagagistes. Une mention spéciale comme toujours a Abderahim toujours au petit soin. 
+                            J’ai apprécié le service et les sourires de Imane, Wafa, Oussama et Ahmed.
+                        </p>
+                        <img src = "img1.jpg" alt = "customer image">
+                    </div>
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>Accueil très agréable . Tout est fait pour le confort et le bien-être des clients . Un hôtel qui n’a rien perdu de son cachet de luxe malgré la pandémie .</p>
+                        <img src = "img2.jpg" alt = "customer image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>À propos de Nous </h2>
+                    <p>
+                        HOTEL KECH <br>
+                        On presente ici les millieurs Hotels ou Marrakech 
+                    </p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <a href="https://twitter.com/HOTELMARRAKECH4" target="_blank">
+                                <i class = "fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://web.facebook.com/profile.php?id=100074194341110" target="_blank">
+                                <i class = "fa fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.instagram.com/hotelmarrakech1" target="_blank">
+                                <i class = "fa fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h2>Liens utiles</h2>
+                    <a href = "#header">Top du Page</a>
+                </div>
+    
+                <div>
+                    <h2>Vie privée</h2>
+                    <a href = "./aboutus.html">À propos de Nous et Carrière</a>
+                    <a href = "mailto:bouraihanoussama@gmail.com">Nous contacter</a>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            bouraihanoussama@gmail.com
+                        </span>
+                    </div>
+                </div>
+    
+                <div>
+                    <h2>Informations</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Maroc, Marrakech
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +212639978300
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="sofitel.js"></script>
+    </body>
+</html> 

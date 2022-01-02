@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL Les Jardins de la Koutobia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="jardin.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "LOGO.png" type = "image/png">
+    </head>
+    <body>
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>HOTEL KECH</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+            
+            <div class = "head-bottom flex">
+                <h2> Hôtel Les jardins de la Koutoubia</h2>
+                <p> Au coeur de la Médina aux mille et un parfums et couleurs de Marrakech, 
+                    tout près de la légendaire place Jemaâ el Fna, établi dans la fraîcheur des murs du Riad Ouarzazi datant du XIIIème siècle,
+                     Les Jardins de la Koutoubia est un prestigieux établissement apprécié pour la qualité de son service, un Spa luxueux et la diversité de sa table.</p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "./Hotel_Marrakech.html">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <div id = "modal"></div>
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>Cuisine Marocaine, française ou encore indienne, découvrez les 3 restaurants gastronomique et bars des Jardins de la Koutoubia à marrakech au Maroc. </p>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>Les Jardins de la Koutoubia compte 108 chambres dont 30 Mini Suites, 22 Suites Junior et 2 Suites Royales.
+                            Toutes les chambres sont équipées de climatisation, de télévision par satellite, 
+                           de téléphone avec ligne directe, de mini-bar, de coffre fort, de sèche-cheveux et du wifi.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "jardin2.jpg" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Réception & Room Service 24h/24.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Piscine intérieure chauffée,Piscine extérieure chauffée.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Climatisation / chauffage. 
+                                </li>
+                            </ul>
+                            <p>Toilettes surélevées,Accessible en fauteuil roulant,Soins du visage, soins des cheveux,Salles de réunions/réceptions,
+                                Vestiaires salle de sport/spa,Service de ménage quotidien.
+                            </p>
+                            <p class = "rate">
+                                <span>$243,38 /</span> Par Nuit
+                            </p>
+                            <button type = "button" class = "btn">book now</button>
+                        </div>
+                </article>
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "jardin1.jpg" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    108 Chambres et Suites.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    3 Restaurants, 1 Snack Bar, 1 Piano Bar .
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Lavabo bas adapté aux personnes à mobilité réduite.
+                                </li>
+                            </ul>
+                            <p>Service de ménage quotidien,Navette aéroport,Bibliothèque,Connexion Wi-Fi gratuite,snack-bar,Petit-déjeuner en chambre.
+                                </p>
+                            <p class = "rate">
+                                <span>$243,38 /</span> Par Nuit
+                            </p>
+                            <button type = "button" class = "btn">book now</button>
+                        </div>
+                </article>
+            </div>
+        </section>
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>  Ce lieu est magique avec beaucoup d’authenticité.
+                            Très bel hôtel de luxe…
+                            Superbe et grande piscine au Rez de chaussée, cuisine chauffée au 3ème etage !
+                            Le personnel à notre écoute…
+                            Les restaurants sont excellents…
+                            Nous étions ds une mini-suite….
+                            Beau format, belle décoration…
+                            Tout est au TOP !
+                            Tout est beau !
+                            La situation géographique est parfaite : face à la koutoubia,
+                            Au pied de la médina !</p>
+                        <img src = "img1.jpg" alt = "customer image">
+                    </div>
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>  Merveilleux endroit bien situé, les pieds dans les souks!!
+                            Endroits très raffiné, accueil parfait avec un sur classement vue piscine, la sympathie du personnel, la propreté, la gentillesse pour satisfaire font de ce lieux une adresse a garder, j'ai essayé le spa que dire les odeurs la propreté, le proffessionalisme de ma masseuse extraordinaire, soins de qualité avec des produits de haut standing.
+                            Merci a vous tous pour c'est deux nuits réussi.
+                            Nous reviendrons avec grand plaisir, habitué de Marrakech depuis 15 ans</p>
+                        <img src = "img2.jpg" alt = "customer image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>À propos de Nous </h2>
+                    <p>
+                        HOTEL KECH <br>
+                        On presente ici les millieurs Hotels ou Marrakech 
+                    </p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <a href="https://twitter.com/HOTELMARRAKECH4" target="_blank">
+                                <i class = "fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://web.facebook.com/profile.php?id=100074194341110" target="_blank">
+                                <i class = "fa fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.instagram.com/hotelmarrakech1" target="_blank">
+                                <i class = "fa fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h2>Liens utiles</h2>
+                    <a href = "#header">Top du Page</a>
+                </div>
+    
+                <div>
+                    <h2>Vie privée</h2>
+                    <a href = "./aboutus.html">À propos de Nous et Carrière</a>
+                    <a href = "mailto:bouraihanoussama@gmail.com">Nous contacter</a>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            bouraihanoussama@gmail.com
+                        </span>
+                    </div>
+                </div>
+    
+                <div>
+                    <h2>Informations</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Maroc, Marrakech
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +212639978300
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="jardin.js"></script>
+    </body>
+</html>

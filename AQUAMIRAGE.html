@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL KECH</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="aquamirage.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "LOGO.png" type = "image/png">
+    </head>
+    <body>
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>HOTEL KECH</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>Hotel Aqua Mirage Club Marrakech</h2>
+                <p>L’Aqua Mirage Club All Inclusive Marrakech s’étend sur 20 hectares de nature au pied des montagnes de l’Atlas. Le domaine possède son Aqua Parc géant pour les plus petits comme pour les férus de sensations fortes, une large palette d’animations,
+                    des espaces variés de restauration et des salles dédiées à l’organisation de réunions et séminaires.
+                </p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "./Hotel_Marrakech.html">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <div id = "modal"></div>
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Service / Restaurants & bars</h2>
+                        <p>
+                            Le restaurant principal du domaine propose une cuisine variée faite de produits frais, livrés chaque jour par les éleveurs et maraîchers de la région. Sous un thème différent chaque soir de la semaine, les plats et le spectacle s’affichent aux couleurs du Maroc, de l’Italie, de l’Asie, du Mexique, de la Méditerranée, de la gastronomie Française ou d’une soirée de Gala. <br>
+                            En salle, où les tables se divisent en différents espaces pour plus d’intimité, ou en terrasse, les buffets sont offerts à volonté. Que ce soit pour les parties pizza, pâtes, les plats chauds, marocains, les entrées et les salades, les desserts … l’îlot central permet à nos cuisiniers de préparer devant nos hôtes leurs menus. Et pour chaque séjour de 7 nuits, un dîner est offert dans notre restaurant marocain pour un voyage vers de nouvelles saveurs qui réunissent l’authenticité et la richesse de la gastronomie marocaine. Les enfants ont eux aussi leurs buffets, à leur taille, pour faire comme les grands.
+                        </p>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Chambres & Hébergement</h2>
+                        <p>
+                            Ses 550 chambres tout confort, au design sobre et raffiné, ponctué de tonalités orientales, se partagent sur quatre bâtiments avec ascenseurs, en parfaite harmonie avec les jardins environnants. Un sentiment d’espace et de liberté domine grâce à une nature exceptionnelle, aux portes de Marrakech, changeant au gré des saisons, verdoyante toute l’année et aux cimes enneigées pendant les mois d’hiver. <br>
+                            Toutes les chambres sont décorées et agencées avec soin. Elles ont toutes une vue imprenable sur les jardins et la nature environnante cernée par les montagnes de l’Atlas. Certaines font face à la piscine calme, à l’Aqua Parc, aux terrains de sport ou à la piscine principale, et la majorité disposent d’un balcon aménagé ou une terasse. Il existe aussi des chambres communicantes, permettant de plus grandes capacités d'accueil pour les familles.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                 <label for = "checkin-date">Date d'arrivée :</label>
+                 <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                 <label for = "checkout-date">Date de départ : </label>
+                 <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                 <label for = "adult">Adultes :</label>
+                 <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                 <label for = "children">Enfants:</label>
+                 <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                 <label for = "rooms">Chambres: </label>
+                 <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                 <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "image1.PNG" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Descriptif & équipements
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Points forts
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    EQUIPEMENTS
+                                </li>
+                            </ul>
+                            <p> -550 chambres<br>
+                                -2 restaurants, 5 bars/lounges et 2 snacks<br>
+                                -Centre de bien-être<br>
+                                -3 piscines extérieures dont 1 chauffée selon saison<br>
+                                -Parc aquatique gratuit<br>
+                                -6 courts de tennis
+                            </p>
+                            <p class = "rate">
+                                <span>$170,52 /</span> par nuit
+                            </p>
+                        </div>
+                </article>
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "image2.PNG" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Descriptif & équipements
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Points forts
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                EQUIPEMENTS
+                            </li>
+                        </ul>
+                        <p>
+                            -Centre de conférences<br>
+                            -Navette centre ville<br>
+                            -Club pour enfants<br>
+                            -WiFi gratuit<br>
+                            -Réception ouverte 24 heures sur 24<br>
+                            -Terrain de football  
+                        </p>
+                        <p class = "rate">
+                            <span>$170,52/</span> Par Nuit
+                        </p>
+                    </div>
+            </article>
+            </div>
+        </section>
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>
+                            Tout le personnel est aux petits soins, des serveurs aux cuisiniers, les animateurs au Top. Chaque soir une nouvelle animation, avec des chorégraphies de haut niveau.
+                            L'équipe Coralia; Papis, Lahsen et Isham, très proches des clients, bravo à eux pour leur dévouement.
+                            Les repas sont copieux et très bons, impossible de ne pas trouver son bonheur tant il y a de choix !
+                            Séjour très reposant en tout inclus. Un grand merci à toute l'équipe
+                        </p>
+                        <img src = "img1.jpg" alt = "customer image">
+                    </div>
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>13 jours passés aux côtés de l'aqua mirage et leurs différentes équipes au top.Question ambiance ils sont la, les repas sont bons et variés, les serveurs sont présents, un thème différent chaque soir et le all inclusive en est vraiment un, aucun supplément à prévoir.
+                            Les excursions sont magiques on en a pris plein les yeux. Recommandé à 100%</p>
+                        <img src = "img2.jpg" alt = "customer image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>À propos de Nous </h2>
+                    <p>
+                        HOTEL KECH <br>
+                        On presente ici les millieurs Hotels ou Marrakech 
+                    </p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <a href="https://twitter.com/HOTELMARRAKECH4" target="_blank">
+                                <i class = "fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://web.facebook.com/profile.php?id=100074194341110" target="_blank">
+                                <i class = "fa fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.instagram.com/hotelmarrakech1" target="_blank">
+                                <i class = "fa fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h2>Liens utiles</h2>
+                    <a href = "#header">Top du Page</a>
+                </div>
+    
+                <div>
+                    <h2>Vie privée</h2>
+                    <a href = "./aboutus.html">À propos de Nous et Carrière</a>
+                    <a href = "mailto:bouraihanoussama@gmail.com">Nous contacter</a>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            bouraihanoussama@gmail.com
+                        </span>
+                    </div>
+                </div>
+    
+                <div>
+                    <h2>Informations</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Maroc, Marrakech
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +212639978300
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="aquamirage.js"></script>
+    </body>
+</html> 

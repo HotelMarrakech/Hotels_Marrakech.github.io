@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL KECH</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="hotel.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "LOGO.png" type = "image/png">
+    </head>
+    <body>
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>HOTEL KECH</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>Hotel Cesar Resort & Spa</h2>
+                <p>Le Cesar Resort & Spa, 5 étoiles, vous accueille dans un cadre moderne & art déco inspiré des traditions marocaines. Composé de 9 chambres, 17 suites, 1 loft et d’ appartements entièrement revisités par Raymond Morel, l’hôtel promet à sa clientèle un séjour inoubliable.</p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "./Hotel_Marrakech.html">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <div id = "modal"></div>
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ GALERY</h2>
+                        <p>Découvrez la beauté de nos offres d'hébergement exclusives : un décor somptueux pour un séjour de luxe en toute sérénité.</p>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>RESTAURANT</h2>
+                        <p>Pour déguster des recettes aux influences multiples, world food ou cuisine marocaine raffinée, le César Restaurant est le rendez-vous chic de la ville rouge.
+                            Cette adresse Fooding dans l’air du temps peut accueillir jusqu’à 300 personnes, entre espace intérieur et terrasse en teck. En cuisine comme en salle, c’est toute une équipe qui, aujourd’hui, fait vivre avec éclat et attention le restaurant de l’hôtel.      
+                            Une énergie commune déployée pour créer l’expérience et l’ambiance d’un lieu exceptionnel.  
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "nuit-de-noce-hotel-5-etoiles-marrakech-luxiabooking0.jpg" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Chambres du Lux
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Chambre double deluxe de 30m² avec un lit king size ou deux lits jumeaux avec salle de bain privative avec WC et douche ou baignoire. Chaque chambre dispose d’un balcon avec vue sur la piscine soit d’un accès direct à la piscine.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    EQUIPEMENTS
+                                </li>
+                            </ul>
+                            <p> Mobilier design, wifi, chauffage, produits d’accueil 100% naturels à base d’huile d’argan, salle de bain, écran plat,, SDB privée avec douche, Climatisation, IPTV , service de réveil, mini-bar, scénarios de lumière, planche à repasser, coffre fort, sèche-cheveux, terrasse, balcon, Cafetière*</p>
+                            <p class = "rate">
+                                <span>$14o /</span> Per Night
+                            </p>
+                            <button type = "button" class = "btn">book now</button>
+                        </div>
+                </article>
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "5e256f9b3f39fo.jpg" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Chambres du Lux
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Chambre double deluxe de 30m² avec un lit king size ou deux lits jumeaux avec salle de bain privative avec WC et douche ou baignoire. Chaque chambre dispose d’un balcon avec vue sur la piscine soit d’un accès direct à la piscine.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    EQUIPEMENTS
+                                </li>
+                            </ul>
+                            <p>Mobilier design, wifi, chauffage, produits d’accueil 100% naturels à base d’huile d’argan, salle de bain, écran plat,, SDB privée avec douche, Climatisation, IPTV , service de réveil, mini-bar, scénarios de lumière, planche à repasser, coffre fort, sèche-cheveux, terrasse, balcon, Cafetière*</p>
+                            <p class = "rate">
+                                <span>$14o /</span> Per Night
+                            </p>
+                            <button type = "button" class = "btn">book now</button>
+                        </div>
+                </article>
+            </div>
+        </section>
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>Cadre très agréable Personnel au top Propreté
+                            Très bonne expérience dans un riad
+                            Petit déjeuner très complet
+                            Je le recommande
+                            Très bien situé pour faire vos achats dans la place jemeha el fna
+                            Piscine très agréable et propre
+                            Transat confortable avec une serviette propre
+                        </p>
+                        <img src = "img1.jpg" alt = "customer image">
+                    </div>
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>Lorsque nous avons traversé les portes de cet hôtel haut de gamme, nous sommes arrivés dans un endroit calme et paisible contrastant avec l'effervescence de la place Jemaa el Fna. Les chambres, les installations, les repas et les attentions de toute l'équipe sont vraiment remarquables. Nous avons passé 2 jours de pure bonheur.</p>
+                        <img src = "img2.jpg" alt = "customer image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>À propos de Nous </h2>
+                    <p>
+                        HOTEL KECH <br>
+                        On presente ici les millieurs Hotels ou Marrakech 
+                    </p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <a href="https://twitter.com/HOTELMARRAKECH4" target="_blank">
+                                <i class = "fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://web.facebook.com/profile.php?id=100074194341110" target="_blank">
+                                <i class = "fa fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.instagram.com/hotelmarrakech1" target="_blank">
+                                <i class = "fa fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h2>Liens utiles</h2>
+                    <a href = "#header">Top du Page</a>
+                </div>
+    
+                <div>
+                    <h2>Vie privée</h2>
+                    <a href = "./aboutus.html">À propos de Nous et Carrière</a>
+                    <a href = "mailto:bouraihanoussama@gmail.com">Nous contacter</a>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            bouraihanoussama@gmail.com
+                        </span>
+                    </div>
+                </div>
+    
+                <div>
+                    <h2>Informations</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Maroc, Marrakech
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +212639978300
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="hotel.js"></script>
+    </body>
+</html>
+
+
+
+
+

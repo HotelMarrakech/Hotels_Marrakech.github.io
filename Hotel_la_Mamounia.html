@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL La Mamounia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Mamounia.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "LOGO.png" type = "image/png">
+    </head>
+    <body>
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>HOTEL KECH</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+            
+            <div class = "head-bottom flex">
+                <h2> Hôtel la Mamounia</form></h2>
+                <p>La Mamounia a été sacrée Meilleur Hôtel au Monde pour la 3ième fois par le très respecté magazine Conde Nast Traveler.
+                    Pierre Jochem Directeur Général de La Mamounia.</p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "./Hotel_Marrakech.html">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <div id = "modal"></div>
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>À La Mamounia, faites varier les saveurs et les goûts au gré des jours et des occasions. Les restaurants du palace offrent une palette sans pareille de cuisines et d’ambiances à Marrakech. Au restaurant l’Italien par Jean-Georges, le Chef invite à la dolce vita. Atmosphère d’une trattoria de luxe, chaleureuse et accueillante,
+                            où les pizzas cuites au feu de bois rivalisent de gourmandise ensoleillée avec les antipasti. Tout chante. </p>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>Élégantes et confortables, nos luxueuses chambres déploient avec raffinement l’atmosphère envoûtante de La Mamounia. Dans chacune d’entre-elles, 
+                            les plafonds en Zouac et les Moucharabieh se mêlent avec délicatesse à un style contemporain et chaleureux.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "mamounia2.PNG" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    L'hôtel propose 135 chambres et 71 suites.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    les chambres possèdent une salle de bains et une télévision satellite
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Climatisées et dotées d'une connexion Wi-Fi gratuite 
+                                </li>
+                            </ul>
+                            <p>- Navette aéroport, Salle de bain supplémentaire,Chambres non-fumeurs,Chambres fumeurs disponibles,Chambres familiales,
+                                Connexion Wi-Fi gratuite,Balcon privé,Piscine intérieure,Piscine extérieure et Piscine chauffée
+                            </p>
+                            <p class = "rate">
+                                <span>$551.97 /</span> Par Nuit
+                            </p>
+                            <button type = "button" class = "btn">book now</button>
+                        </div>
+                </article>
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "mamounia1.PNG" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Les suites comprennent une chambre et un ou deux salons.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    La Mamounia comprend un spa avec piscine.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Centre d'affaires avec accès Internet.
+                                </li>
+                            </ul>
+                            <p>Réception 24 heures sur 24,Service d'étage,Vestiaires du spa/centre de remise en forme,Hammam,Spa,Massage en couple,Connexion Wi-Fi gratuite
+                                Soins du visage,Massage des pieds,Massage corporel complet,Salles de conférence,Salle de réception et Salles de réunion.
+                                </p>
+                            <p class = "rate">
+                                <span>$551.97 /</span> Par Nuit
+                            </p>
+                            <button type = "button" class = "btn">book now</button>
+                        </div>
+                </article>
+            </div>
+        </section>
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>Une envie d’un séjour à Marrakech, je dirais même au Maroc ? La Mamounia est « the place to be ».
+                            Je viens de passer un séjour merveilleux dans le plus bel hôtel du monde.
+                            Dès votre arrivée à l’aéroport avec l’accueil du chauffeur de l’hôtel vous immergez dans le monde fantastique et luxueux de ce palace.
+                            La réception et son salon, le parfum personnalisé de l’hôtel, la chambre dès les premières minutes tout est tellement parfait.
+                            Le service du personnel impeccable, toujours au petit soin.
+                            La beauté de ce palace et ses jardins vous transportent réellement dans un monde où le sens du détail prend tout son importance.
+                            La décoration des restaurants, les plats qui y sont servis tout était plus que parfait, nul besoin de sortir de l’hôtel pour manger à l’extérieur.</p>
+                        <img src = "img1.jpg" alt = "customer image">
+                    </div>
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p> Hôtel magnifique! Un vrai plaisir de venir dans cet hôtel au mois novembre
+                            Service impeccable! Repas délicieux variés
+                            Restaurants marocain exceptionnel
+                            La piscine est immense et chaude
+                            Il y a un service très apprécié lorsque l on arrive à la piscine, 
+                            serviettes et bouteilles d eau offert à la piscine.<br>
+                            Un établissement hors du commun où l'on se sent à l'aise dès le premier instant.
+                            Un personnel aimable et serviable et des chambres magnifiques, un sans faute !
+                            Le cadre est fantastique autant l'hôtel que le parc.
+                            Un grand bravo à son Directeur Général pour sa recherche de la Perfection.</p>
+                        <img src = "img2.jpg" alt = "customer image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>À propos de Nous </h2>
+                    <p>
+                        HOTEL KECH <br>
+                        On presente ici les millieurs Hotels ou Marrakech 
+                    </p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <a href="https://twitter.com/HOTELMARRAKECH4" target="_blank">
+                                <i class = "fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://web.facebook.com/profile.php?id=100074194341110" target="_blank">
+                                <i class = "fa fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.instagram.com/hotelmarrakech1" target="_blank">
+                                <i class = "fa fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h2>Liens utiles</h2>
+                    <a href = "#header">Top du Page</a>
+                </div>
+    
+                <div>
+                    <h2>Vie privée</h2>
+                    <a href = "./aboutus.html">À propos de Nous et Carrière</a>
+                    <a href = "mailto:bouraihanoussama@gmail.com">Nous contacter</a>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            bouraihanoussama@gmail.com
+                        </span>
+                    </div>
+                </div>
+    
+                <div>
+                    <h2>Informations</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Maroc, Marrakech
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +212639978300
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="mamounia.js"></script>
+    </body>
+</html>

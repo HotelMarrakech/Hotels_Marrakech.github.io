@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL Wazo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="wazo.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "LOGO.png" type = "image/png">
+    </head>
+    <body>
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>HOTEL KECH</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+            
+            <div class = "head-bottom flex">
+                <h2> Hôtel Wazo</h2>
+                <p> Wazo est un concept unique à Marrakech
+                    Que vous soyez client de l’hôtel ou de l’appart hôtel, vous bénéficierez de l’infrastructure de l’ensemble du site
+                    Spa, Kids Club, Restaurants, Lounge et d’autres activités qui feront votre bonheur à coup sûr.  </p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "./Hotel_Marrakech.html">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <div id = "modal"></div>
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>Wazo Hôtel et appart-Hôtel c’est  de nombreux bars et restaurants
+                            pour toutes les envies !
+                            Ils sont en accès libre pour tous les clients de l’hôtel et de l’appart-hôtel.
+                        </p>
+                        <p>Découvrez de magnifiques buffets, copieux et variés. Vous pouvez savourer de délicieux petits déjeuners ou dîners au Millet restaurant buffet.
+                            Ambiance tamisée et atmosphère jazzy, le lounge « Blue Bird » vous invite chaque soir à vous détendre au rythme des accords de notre pianiste.
+                        </p>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>Toutes ses chambres disposent d'une télévision à écran plat. Leur salle de bains privative est pourvue d'une baignoire ou d'une douche. Des peignoirs,
+                            des chaussons et des articles de toilette gratuits sont en outre fournis pour votre plus grand confort.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "wazo1.jpg" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    226 chambres,115 Appartements tout équipés.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    4 piscines (2adultes-2enfants), 2 SPA et 01 salle de sport.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Connexion Wi-Fi gratuite 
+                                </li>
+                            </ul>
+                            <p>Toilettes surélevées,Accessible en fauteuil roulant,Soins du visage, soins des cheveux,Salles de réunions/réceptions,
+                                Vestiaires salle de sport/spa,Service de ménage quotidien.
+                            </p>
+                            <p class = "rate">
+                                <span>$105 /</span> Par Nuit
+                            </p>
+                            <button type = "button" class = "btn">book now</button>
+                        </div>
+                </article>
+                <article class = "room">
+                        <div class = "room-image">
+                            <img src = "wazo3.jpg" alt = "room image">
+                        </div>
+                        <div class = "room-text">
+                            <h3>Luxury Rooms</h3>
+                            <ul>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    108 Chambres et Suites.
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    3 Restaurants, 1 Snack Bar, 1 Piano Bar .
+                                </li>
+                                <li>
+                                    <i class = "fas fa-arrow-alt-circle-right"></i>
+                                    Lavabo bas adapté aux personnes à mobilité réduite.
+                                </li>
+                            </ul>
+                            <p>Vous pourrez profiter d'une réception ouverte 24h/24, d'un salon commun,
+                                d'un salon de coiffure, ainsi que d'une boutique de souvenirs.
+                                L'établissement assure également un service de location de voitures. Vous logerez à 5 km du centre commercial Carré Eden et de la place Jamaâ El Fna. 
+                                L'aéroport de Marrakech-Ménara est à 9 km du Wazo Hotel.
+                                </p>
+                            <p class = "rate">
+                                <span>$105 /</span> Par Nuit
+                            </p>
+                            <button type = "button" class = "btn">book now</button>
+                        </div>
+                </article>
+            </div>
+        </section>
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>  Très belle hôtel, personnels très gentils, très propre et sens bon. Belle piscine,
+                             cependant on ne peut pas se baigner à toutes les périodes car l’eau de la piscine est froide ( mois de janvier assez logique).</p>
+                        <img src = "img1.jpg" alt = "customer image">
+                    </div>
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>   La première chose qui ma plu la propreté, une odeur dans les couloir magnifique, 
+                            la piscine est satisfaisante, une bonne animation, le restaurant est très bon (prix assez eleve),
+                            le ménage dans les chambre sont bien fait, hotel quasiment neuf, agent d acceuil a l ecoute et très réactif (problème de réglage de clim et coffre fort) sont intervebu très rapidement</p>
+                        <img src = "img2.jpg" alt = "customer image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>À propos de Nous </h2>
+                    <p>
+                        HOTEL KECH <br>
+                        On presente ici les millieurs Hotels ou Marrakech 
+                    </p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <a href="https://twitter.com/HOTELMARRAKECH4" target="_blank">
+                                <i class = "fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://web.facebook.com/profile.php?id=100074194341110" target="_blank">
+                                <i class = "fa fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.instagram.com/hotelmarrakech1" target="_blank">
+                                <i class = "fa fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h2>Liens utiles</h2>
+                    <a href = "#header">Top du Page</a>
+                </div>
+    
+                <div>
+                    <h2>Vie privée</h2>
+                    <a href = "./aboutus.html">À propos de Nous et Carrière</a>
+                    <a href = "mailto:bouraihanoussama@gmail.com">Nous contacter</a>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            bouraihanoussama@gmail.com
+                        </span>
+                    </div>
+                </div>
+    
+                <div>
+                    <h2>Informations</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Maroc, Marrakech
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +212639978300
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="wazo.js"></script>
+    </body>
+</html>
